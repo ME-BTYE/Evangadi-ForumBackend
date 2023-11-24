@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "build": "^0.1.4",
     "ci": "^2.3.0",
     "concurrently": "^8.2.2",
     "cors": "^2.8.5",

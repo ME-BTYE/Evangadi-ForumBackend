@@ -16,4 +16,7 @@ app.use("/api/users", userRouter);
 app.use("/api/questions", questionRouter);
 app.use("/api/Answers", answerRouter);
 
-app.listen(port,"0,0,0,0", () => console.log(`listening at http://localhost:${port}`));
+app.listen(port, "0.0.0.0", () =>
+  console.log(`listening at http://localhost:${port}`)
+);
+
